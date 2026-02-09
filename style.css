@@ -28,13 +28,30 @@ p{
     background-color: white;
      background-image: linear-gradient(to left,  #FFA751, #FFE259);
 }
-.post {
-    top: 261px;
-    left: 655px;
-}
 .graid{
      background-image: linear-gradient(to left, gray, black);
 }
 ::-webkit-scrollbar{
 width: 100%;
 }
+.hidden{
+    background-image: url(./images/Без\ имени-3.png);
+    background-repeat: no-repeat;
+    /* background-size: c; */
+    background-position: 63% center;
+   
+}
+@media (max-width: 768px) {
+  .hidden {
+    background-position: top right;
+    background-size: 80%;
+  }
+}
+
+
+
+
+
+
+
+
